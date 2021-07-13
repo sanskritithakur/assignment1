@@ -1,0 +1,51 @@
+#mm{
+    width: 100%;
+    height: 95%;
+    box-sizing: border-box;
+}
+
+#mainscreen{
+    width: 100%;
+    display: flex;
+    /* background-color: chartreuse; */
+    height: inherit;
+}
+#sidemenu{
+    width: 30%;
+    height:inherit;
+    background-color: rgb(19, 18, 18);
+    padding: 30px;
+    border-radius: 5px;
+   
+
+}
+.navop{
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+#sidemenu a{
+    margin-top: 30px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.877);
+    font-family: "Montserrat";
+    font-weight: 600;
+
+}
+#linkstyle{
+    display: flex;
+    flex-direction: column;
+}
+#linkstyle i{
+    margin-right: 10px;
+    color: lavender;
+}
+
+
+#mm{
+    /* background-color: cadetblue; */
+}
+#displaycontent{
+    /* background-color: khaki; */
+    width: 70%;
+}

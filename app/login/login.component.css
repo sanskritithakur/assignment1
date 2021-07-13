@@ -1,0 +1,40 @@
+.loginpagep{
+  
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.lhs{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rhs{
+    width: 40%;
+   
+   
+}.logintext{
+  font-family: "Montserrat";
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px; 
+  margin-bottom: 80px; 
+}
+#bgimg{
+    background-image: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url("https://images.unsplash.com/photo-1510172951991-856a654063f9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80")
+}
+
+.logincard{
+  
+  width: max-content; 
+    padding:40px;
+    box-shadow: 0px 0px 10px 10px rgba(125, 125, 126, 0.137);
+    border-radius: 10px;
+}

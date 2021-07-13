@@ -1,0 +1,32 @@
+<div id="mm">
+<nav class="navbar navbar-inverse"style="width:100%">
+    <div class="container-fluid" style="display:flex;justify-content: flex-end;width:100%">
+      <h5 style="position: relative;left: -79%;color: cadetblue;margin-top:15px;color: cornsilk;font-family: Montserrat;font-size: 16px;font-weight: 600;">PageReading</h5>
+      <div>
+      <ul class="nav navbar-nav">
+        <li class="active navop"><a href="#">Home</a></li>
+        <li class="active navop"><a routerLink="/">logout</a></li>
+        
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+
+    <div id="mainscreen">
+        <div id="sidemenu">
+        <div id="linkstyle">
+          <a routerLink="/profile/page1"><i class="fa fa-file"></i>Page 1</a>
+          <a routerLink="/profile/page2"><i class="fa fa-file"></i>Page 2</a>
+          <a routerLink="/profile/page1"><i class="fa fa-file"></i>Page 1</a>
+          <a routerLink="/profile/page2"><i class="fa fa-file"></i>Page 2</a>
+          <a routerLink="/profile/page1"><i class="fa fa-file"></i>Page 1</a>
+          <a routerLink="/profile/page2"><i class="fa fa-file"></i>Page 2</a>
+        </div>
+    </div>
+        <div id="displaycontent">
+           
+           <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
